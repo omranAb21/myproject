@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הוספת אנשי קשר</title>
+  <link rel="stylesheet" href="omran.css">
+</head>
+<body>
+  <div class="container">
+    <h1>הוספת אנשי קשר</h1>
+    <form id="contact-form">
+      <label for="name">שם:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="phone">מספר טלפון:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <button type="submit">הוסף איש קשר</button>
+    </form>
+    
+    <h2>רשימת אנשי קשר:</h2>
+    <input type="text" id="search" placeholder="חפש איש קשר">
+    <button id="clear-all">מחק הכל</button>
+    
+    <table id="contact-table">
+      <thead>
+        <tr>
+          <th>שם</th>
+          <th>מספר טלפון</th>
+        </tr>
+      </thead>
+      <tbody id="contact-list">
+        <tr>
+          <td>עמראן אבו ליל</td>
+          <td>0547712912</td>
+        </tr>
+        <tr>
+          <td>נירא אבו סלאח</td>
+          <td>0524674317</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
